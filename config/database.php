@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => $db_config['connection'],
 
     /*
     |--------------------------------------------------------------------------
@@ -60,6 +60,8 @@ return [
             'driver' => 'pgsql',
             'host' => $db_config['host'],
             'port' => env('DB_PORT', '5432'),
+            'host'     => $db_config['host'],
+            'port'     => env('DB_PORT', '5432'),
             'database' => $db_config['database'],
             'username' => $db_config['username'],
             'password' => $db_config['password'],
