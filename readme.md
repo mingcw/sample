@@ -1,6 +1,7 @@
 ## 关于
-阅读由 Laravel China 推出的[「 Laravel 教程 - Web 开发实战入门 ( Laravel 5.5 )」](https://laravel-china.org/courses/laravel-essential-training-5.5)后，开发的一个类似新浪微博的网站。整个网站功能包括：
+Laravel 开发的类似新浪微博的网站。
 
+## 系统功能
 - 用户的注册登录
 - 用户个人信息的更改
 - 使用管理员权限删除用户
