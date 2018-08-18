@@ -8,6 +8,7 @@
     </small>
     <nav>
       <ul>
+        <li>来自：{{ $location->city . ' / ' . $location->country}}</li>
         <li><a href="{{ route('about') }}">关于</a></li>
       </ul>
     </nav>
